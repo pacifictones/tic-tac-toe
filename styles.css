@@ -1,9 +1,65 @@
-td {
-    height: 100px;
-    width: 100px;
-    border: solid 1px black;
-    border-collapse: collapse;
-    align-self: center;
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#winnerIs {
+    margin-bottom: 20px;
+    font-size: 25px;
+    height: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+td {
+    height: 120px;
+    width: 120px;
+    border: solid 5px black;
+    align-self: center;
+    text-align: center;
+    font-size: 100px;
+    padding: none;
+    margin: none;
+    
+}
+
+.top {
+    border-top: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+table {
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+    margin-bottom: 60px;
+}
+
+tr {
+    width: 400px;
+}
  
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}

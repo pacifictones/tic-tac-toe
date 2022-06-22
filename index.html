@@ -9,24 +9,29 @@
     <script defer src="code.js"></script>
 </head>
 <body>
+    <div id="container">
+        
+        <h1>Tic-Tac-Toe</h1>
+        <div id="winnerIs"></div>
     <table>
         <tr>
-            <td class="cell" id="00"></td>
-            <td class="cell" id="01"></td>
-            <td class="cell" id="02"></td>
+            <td class="cell top left" id="00"></td>
+            <td class="cell top" id="01"></td>
+            <td class="cell top right" id="02"></td>
         </tr>
         <tr>
-            <td class="cell" id="10"></td>
+            <td class="cell left" id="10"></td>
             <td class="cell" id="11"></td>
-            <td class="cell" id="12"></td>
+            <td class="cell right" id="12"></td>
         </tr>
         <tr>
-            <td class="cell" id="20"></td>
-            <td class="cell" id="21"></td>
-            <td class="cell" id="22"></td>
+            <td class="cell bottom left" id="20"></td>
+            <td class="cell bottom" id="21"></td>
+            <td class="cell bottom right" id="22"></td>
         </tr>
     </table>
 
     <button id="reset">Reset</button>
+</div>
 </body>
 </html>
